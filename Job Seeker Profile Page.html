@@ -1,0 +1,58 @@
+<html>
+
+    <head>
+        <title> Job Seeker  Profile Page </title>
+    </head>
+
+    <!-- --> </>
+
+    <body> <!-- BODY -->
+
+        <center><h1> My Profile </h1></center>
+
+        <img src="DefaultPP.png" height="300" width="300" alt="Default Profile Picture" class="center">
+
+        <form>
+            <button type="button" onclick="alert('Your profile has been deleted!')">Delete Profile</button>
+        <fieldset><legend><b>Personal Details</b></legend>
+            <label><b>First Name:</b></label> <span contentEditable="true">James</span><br>
+            <label><b>last Name:</b></label> <span contentEditable="true">Bond</span><br>
+            <label><b>Email:</b></label> <span contentEditable="true">JamesBond@gmail.com</span><br>
+            <label><b>Password:</b></label> <span contentEditable="true">James123</span><br>
+            <label><b>Birthdate:</b></label> <input type="date" id="Birthdate" name="birthday"><br>
+            <label><b>Gender:</b></label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+            <label><b>Nationality:</b></label> <span contentEditable="true"> Saudi Arabian </span><br>
+        
+        </fieldset>
+        <br>
+        <fieldset><legend><b>Contact Info</b></legend>
+            <label><b>City:</b></label> <span contentEditable="true"> Riyadh </span><br> 
+            <label><b>Phone number:</b></label> <span contentEditable="true">+123456746</span><br>
+        </fieldset>
+        <br>
+        <fieldset><legend><b>About</b></legend>
+            <label><b>Current Job:</b></label> <span contentEditable="true"> Fresh Graduate. </span><br>
+            <label><b>Major:</b></label> <span contentEditable="true"> Software Engineering. </span><br>
+            <label><b>Experience:</b></label> <span contentEditable="true"> I can't count them. </span><br>
+            <label><b>Skills:</b></label> <span contentEditable="true"> many.</span><br>
+        </fieldset><br>
+        <center><button type="button" onclick="alert('Your edits has been saved!')">Save Changes</button></center> <br>
+        <center><button type="button" onclick="alert('Your edits has been erased!')">Clear All</button></center>
+    </form>
+
+    <!-- It will be a toggle button after adding CSS -->
+    <label class="switch"> Make my personal information private
+        <input type="checkbox">
+        <span class="slider round"></span>
+    </label> 
+
+    </body> <!-- END BODY -->
+
+
+</html>
